@@ -74,14 +74,14 @@ if (!isset($_SESSION['Email'])) {
                                         <div class="col-sm-6">
                                             <div class="topbar-links">
                                                 <a href="signin.php"><i class="fa fa-lock"></i>Login / Register</a>
-                                                <span>|</span>
-                                                <div class="header-cart dropdown">
+                                                <!-- <span>|</span> -->
+                                                <!-- <div class="header-cart dropdown">
                                                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                                         <i class="fa fa-shopping-cart"></i>
                                                         <small>0</small>
-                                                    </a>
+                                                    </a> -->
                                                     <!-- cart -->
-                                                    <div class="dropdown-menu cart-dropdown">
+                                                    <!-- <div class="dropdown-menu cart-dropdown">
                                                         <ul>
                                                             <li class="clearfix">
                                                                 <img src="images/header-cart-image-01.jpg" alt="cart item" />
@@ -126,7 +126,7 @@ if (!isset($_SESSION['Email'])) {
                                                             <a href="checkout.html" class="btn btn-primary">Checkout</a>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -141,22 +141,22 @@ if (!isset($_SESSION['Email'])) {
                                         </li>
                                         <li class="dropdown">
                                             <a data-toggle="dropdown" class="dropdown-toggle disabled" href="books-media-list-view.html">Books &amp; Media</a>
-                                            <ul class="dropdown-menu">
+                                            <!-- <ul class="dropdown-menu">
                                                 <li><a href="books-media-list-view.html">Books &amp; Media List View</a></li>
                                                 <li><a href="books-media-gird-view-v1.html">Books &amp; Media Grid View V1</a></li>
                                                 <li><a href="books-media-gird-view-v2.html">Books &amp; Media Grid View V2</a></li>
                                                 <li><a href="books-media-detail-v1.html">Books &amp; Media Detail V1</a></li>
                                                 <li><a href="books-media-detail-v2.html">Books &amp; Media Detail V2</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li class="dropdown">
+                                        <!-- <li class="dropdown">
                                             <a data-toggle="dropdown" class="dropdown-toggle disabled" href="news-events-list-view.html">News &amp; Events</a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="news-events-list-view.html">News &amp; Events List View</a></li>
                                                 <li><a href="news-events-detail.html">News &amp; Events Detail</a></li>
                                             </ul>
-                                        </li>
-                                        <li class="dropdown">
+                                        </li> -->
+                                        <!-- <li class="dropdown">
                                             <a data-toggle="dropdown" class="dropdown-toggle disabled" href="#">Pages</a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="cart.html">Cart</a></li>
@@ -164,72 +164,18 @@ if (!isset($_SESSION['Email'])) {
                                                 <li><a href="signin.html">Signin/Register</a></li>
                                                 <li><a href="404.html">404/Error</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="dropdown">
-                                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="blog.html">Blog</a>
-                                            <ul class="dropdown-menu">
+                                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="404.html">Blog</a>
+                                           <!--  <ul class="dropdown-menu">
                                                 <li><a href="blog.html">Blog Grid View</a></li>
                                                 <li><a href="blog-detail.html">Blog Detail</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <li><a href="services.html">Services</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="mobile-menu hidden-lg hidden-md">
-                            <a href="#mobile-menu"><i class="fa fa-navicon"></i></a>
-                            <div id="mobile-menu">
-                                <ul>
-                                    <li class="mobile-title">
-                                        <h4>Navigation</h4>
-                                        <a href="#" class="close"></a>
-                                    </li>
-                                    <li>
-                                        <a href="index-2.html">Home</a>
-                                        <ul>
-                                            <li><a href="index-2.html">Home V1</a></li>
-                                            <li><a href="home-v2.html">Home V2</a></li>
-                                            <li><a href="home-v3.html">Home V3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="books-media-list-view.html">Books &amp; Media</a>
-                                        <ul>
-                                            <li><a href="books-media-list-view.html">Books &amp; Media List View</a></li>
-                                            <li><a href="books-media-gird-view-v1.html">Books &amp; Media Grid View V1</a></li>
-                                            <li><a href="books-media-gird-view-v2.html">Books &amp; Media Grid View V2</a></li>
-                                            <li><a href="books-media-detail-v1.html">Books &amp; Media Detail V1</a></li>
-                                            <li><a href="books-media-detail-v2.html">Books &amp; Media Detail V2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="news-events-list-view.html">News &amp; Events</a>
-                                        <ul>
-                                            <li><a href="news-events-list-view.html">News &amp; Events List View</a></li>
-                                            <li><a href="news-events-detail.html">News &amp; Events Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Pages</a>
-                                        <ul>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="signin.html">Signin/Register</a></li>
-                                            <li><a href="404.html">404/Error</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="blog.html">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog Grid View</a></li>
-                                            <li><a href="blog-detail.html">Blog Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
                             </div>
                         </div>
                     </nav>
