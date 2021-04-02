@@ -17,7 +17,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CLato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    
+
     <!-- Mobile Menu -->
     <link href="css/mmenu.css" rel="stylesheet" type="text/css" />
     <link href="css/mmenu.positioning.css" rel="stylesheet" type="text/css" />
@@ -100,18 +100,18 @@
             <div class="banner-header">
                 <h2>Blog Posts</h2>
                 <span class="underline center"></span>
-                <p class="lead">Proin ac eros pellentesque dolor pharetra tempo.</p>
+                <p class="lead">Xin Mời.</p>
             </div>
             <div class="breadcrumb">
                 <ul>
-                    <li><a href="index-2.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li>Blog</li>
                 </ul>
             </div>
         </div>
     </section>
     <!-- End: Page Banner -->
-    
+
     <!-- Start: Blog Section -->
     <div id="content" class="site-content">
         <div id="primary" class="content-area">
@@ -505,46 +505,46 @@
             <div class="center-content">
                 <h2 class="section-title">Follow Us</h2>
                 <span class="underline center"></span>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="lead">4 more information.</p>
             </div>
             <ul>
                 <li>
-                    <a class="facebook" href="#" target="_blank">
+                    <a class="facebook" href="https://www.facebook.com/Damnguyen26/" target="_blank">
                         <span>
                             <i class="fa fa-facebook-f"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="twitter" href="#" target="_blank">
+                    <a class="twitter" href="https://twitter.com/damnguyen26" target="_blank">
                         <span>
                             <i class="fa fa-twitter"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="google" href="#" target="_blank">
+                    <a class="google" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
                         <span>
                             <i class="fa fa-google-plus"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="rss" href="#" target="_blank">
+                    <a class="rss" href="https://github.com/DamNguyen26" target="_blank">
                         <span>
-                            <i class="fa fa-rss"></i>
+                            <i class="fa fa-github"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="linkedin" href="#" target="_blank">
+                    <a class="linkedin" href="https://www.instagram.com/_damnguyen26_/" target="_blank">
                         <span>
-                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-instagram"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="youtube" href="#" target="_blank">
+                    <a class="youtube" href="https://www.youtube.com" target="_blank">
                         <span>
                             <i class="fa fa-youtube"></i>
                         </span>
@@ -570,15 +570,15 @@
                             <address>
                                 <div class="info">
                                     <i class="fa fa-location-arrow"></i>
-                                    <span>21 King Street, Melbourne, Victoria 3000 Australia</span>
+                                    <span>Hai Bà Trưng, Thành Phố Hà Nội, Việt Nam</span>
                                 </div>
                                 <div class="info">
                                     <i class="fa fa-envelope"></i>
-                                    <span><a href="mailto:support@libraria.com">support@libraria.com</a></span>
+                                    <span><a href="dammit2525@gmail.com">dammit2525@gmail.com</a></span>
                                 </div>
                                 <div class="info">
                                     <i class="fa fa-phone"></i>
-                                    <span><a href="tel:012-345-6789">+ 012-345-6789</a></span>
+                                    <span><a href="tel:0983650209">0983650209</a></span>
                                 </div>
                             </address>
                         </div>
@@ -661,22 +661,22 @@
 
     <!-- jQuery Latest Version 1.x -->
     <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
-    
+
     <!-- jQuery UI -->
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-    
+
     <!-- jQuery Easing -->
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 
     <!-- Bootstrap -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    
+
     <!-- Mobile Menu -->
     <script type="text/javascript" src="js/mmenu.min.js"></script>
-    
+
     <!-- Harvey - State manager for media queries -->
     <script type="text/javascript" src="js/harvey.min.js"></script>
-    
+
     <!-- Waypoints - Load Elements on View -->
     <script type="text/javascript" src="js/waypoints.min.js"></script>
 
@@ -688,28 +688,28 @@
 
     <!-- Owl Carousel -->
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    
+
     <!-- Accordion -->
     <script type="text/javascript" src="js/accordion.min.js"></script>
-    
+
     <!-- Responsive Tabs -->
     <script type="text/javascript" src="js/responsive.tabs.min.js"></script>
-    
+
     <!-- Responsive Table -->
     <script type="text/javascript" src="js/responsive.table.min.js"></script>
-    
+
     <!-- Masonry -->
     <script type="text/javascript" src="js/masonry.min.js"></script>
-    
+
     <!-- Carousel Swipe -->
     <script type="text/javascript" src="js/carousel.swipe.min.js"></script>
-    
+
     <!-- bxSlider -->
     <script type="text/javascript" src="js/bxslider.min.js"></script>
-    
+
     <!-- Custom Scripts -->
     <script type="text/javascript" src="js/main.js"></script>
-    
+
 </body>
 
 

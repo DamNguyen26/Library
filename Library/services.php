@@ -1,8 +1,8 @@
 <?php
 session_start();
 if (!isset($_SESSION['Email'])) {
-    header("Location: signin.php");
-    exit();
+header("Location: signin.php");
+exit();
 }
 ?>
 <!DOCTYPE html>
@@ -716,7 +716,7 @@ if (!isset($_SESSION['Email'])) {
                     </a>
                 </li>
                 <li>
-                    <a class="linkedin" href="https://www.instagram.com/_nguyendam_/" target="_blank">
+                    <a class="linkedin" href="https://www.instagram.com/_damnguyen26_/" target="_blank">
                         <span>
                             <i class="fa fa-instagram"></i>
                         </span>
@@ -749,15 +749,15 @@ if (!isset($_SESSION['Email'])) {
                             <address>
                                 <div class="info">
                                     <i class="fa fa-location-arrow"></i>
-                                    <span>21 King Street, Melbourne, Victoria 3000 Australia</span>
+                                    <span>Hai Bà Trưng, Thành Phố Hà Nội, Việt Nam</span>
                                 </div>
                                 <div class="info">
                                     <i class="fa fa-envelope"></i>
-                                    <span><a href="mailto:support@libraria.com">support@libraria.com</a></span>
+                                    <span><a href="dammit2525@gmail.com">dammit2525@gmail.com</a></span>
                                 </div>
                                 <div class="info">
                                     <i class="fa fa-phone"></i>
-                                    <span><a href="tel:012-345-6789">+ 012-345-6789</a></span>
+                                    <span><a href="tel:0983650209">0983650209</a></span>
                                 </div>
                             </address>
                         </div>

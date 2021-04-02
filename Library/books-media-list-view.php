@@ -1,8 +1,8 @@
 <?php
 session_start();
 if (!isset($_SESSION['Email'])) {
-    header("Location: signin.php");
-    exit();
+header("Location: signin.php");
+exit();
 }
 ?>
 <!DOCTYPE html>
@@ -1041,58 +1041,58 @@ if (!isset($_SESSION['Email'])) {
 
         <!-- Start: Social Network -->
         <section class="social-network section-padding">
-        <div class="container">
-            <div class="center-content">
-                <h2 class="section-title">Follow Us</h2>
-                <span class="underline center"></span>
-                <p class="lead">4 more information.</p>
+            <div class="container">
+                <div class="center-content">
+                    <h2 class="section-title">Follow Us</h2>
+                    <span class="underline center"></span>
+                    <p class="lead">4 more information.</p>
+                </div>
+                <ul>
+                    <li>
+                        <a class="facebook" href="https://www.facebook.com/Damnguyen26/" target="_blank">
+                            <span>
+                                <i class="fa fa-facebook-f"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="twitter" href="https://twitter.com/damnguyen26" target="_blank">
+                            <span>
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="google" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                            <span>
+                                <i class="fa fa-google-plus"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="rss" href="https://github.com/DamNguyen26" target="_blank">
+                            <span>
+                                <i class="fa fa-github"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="linkedin" href="https://www.instagram.com/_damnguyen26_/" target="_blank">
+                            <span>
+                                <i class="fa fa-instagram"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="youtube" href="https://www.youtube.com" target="_blank">
+                            <span>
+                                <i class="fa fa-youtube"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul>
-                <li>
-                    <a class="facebook" href="https://www.facebook.com/Damnguyen26/" target="_blank">
-                        <span>
-                            <i class="fa fa-facebook-f"></i>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a class="twitter" href="https://twitter.com/damnguyen26" target="_blank">
-                        <span>
-                            <i class="fa fa-twitter"></i>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a class="google" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-                        <span>
-                            <i class="fa fa-google-plus"></i>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a class="rss" href="https://github.com/DamNguyen26" target="_blank">
-                        <span>
-                            <i class="fa fa-github"></i>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a class="linkedin" href="https://www.instagram.com/_nguyendam_/" target="_blank">
-                        <span>
-                            <i class="fa fa-instagram"></i>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a class="youtube" href="https://www.youtube.com" target="_blank">
-                        <span>
-                            <i class="fa fa-youtube"></i>
-                        </span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </section>
+        </section>
         <!-- End: Social Network -->
 
         <!-- Start: Footer -->
@@ -1110,15 +1110,15 @@ if (!isset($_SESSION['Email'])) {
                                 <address>
                                     <div class="info">
                                         <i class="fa fa-location-arrow"></i>
-                                        <span>21 King Street, Melbourne, Victoria 3000 Australia</span>
+                                        <span>Hai Bà Trưng, Thành Phố Hà Nội, Việt Nam</span>
                                     </div>
                                     <div class="info">
                                         <i class="fa fa-envelope"></i>
-                                        <span><a href="mailto:support@libraria.com">support@libraria.com</a></span>
+                                        <span><a href="dammit2525@gmail.com">dammit2525@gmail.com</a></span>
                                     </div>
                                     <div class="info">
                                         <i class="fa fa-phone"></i>
-                                        <span><a href="tel:012-345-6789">+ 012-345-6789</a></span>
+                                        <span><a href="tel:0983650209">0983650209</a></span>
                                     </div>
                                 </address>
                             </div>
