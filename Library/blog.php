@@ -80,7 +80,7 @@
                                         <a data-toggle="dropdown" class="dropdown-toggle disabled" href="books-media-list-view.php">Books &amp; Media</a>
                                     </li>
                                     <li class="dropdown active">
-                                        <a data-toggle="dropdown" class="dropdown-toggle disabled" href="404.php">Blog</a>
+                                        <a data-toggle="dropdown" class="dropdown-toggle disabled" href="blog.php">Blog</a>
                                     </li>
                                     <li class="dropdown"><a href="services.php">Services</a></li>
                                     <li class="dropdown"><a href="contact.php">Contact</a></li>
@@ -105,6 +105,7 @@
             <div class="breadcrumb">
                 <ul>
                     <li><a href="index.php">Home</a></li>
+                    <li><a href="blog-detail.php">Blog Detail</a></li>
                     <li>Blog</li>
                 </ul>
             </div>
