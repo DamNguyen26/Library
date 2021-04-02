@@ -1176,26 +1176,22 @@ exit();
                 </div>                
             </div>
             <div class="sub-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="footer-text col-md-3">
-                            <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
-                        </div>
-                        <div class="col-md-9 pull-right">
-                            <ul>
-                                <li><a href="index-2.html">Home</a></li>
-                                <li><a href="books-media-list-view.html">Books &amp; Media</a></li>
-                                <li><a href="news-events-list-view.html">News &amp; Events</a></li>
-                                <li><a href="#">Kids &amp; Teens</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="#">Research</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
+            <div class="container">
+                <div class="row">
+                    <div class="footer-text col-md-3">
+                    </div>
+                    <div class="col-md-9 pull-right">
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="books-media-list-view.php">Books &amp; Media</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="contact.php">Contact</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+        </div>
         </footer>
         <!-- End: Footer -->
 
