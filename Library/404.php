@@ -165,46 +165,46 @@ if (!isset($_SESSION['Email'])) {
             <div class="center-content">
                 <h2 class="section-title">Follow Us</h2>
                 <span class="underline center"></span>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="lead">4 more information.</p>
             </div>
             <ul>
                 <li>
-                    <a class="facebook" href="#" target="_blank">
+                    <a class="facebook" href="https://www.facebook.com/Damnguyen26/" target="_blank">
                         <span>
                             <i class="fa fa-facebook-f"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="twitter" href="#" target="_blank">
+                    <a class="twitter" href="https://twitter.com/damnguyen26" target="_blank">
                         <span>
                             <i class="fa fa-twitter"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="google" href="#" target="_blank">
+                    <a class="google" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
                         <span>
                             <i class="fa fa-google-plus"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="rss" href="#" target="_blank">
+                    <a class="rss" href="https://github.com/DamNguyen26" target="_blank">
                         <span>
-                            <i class="fa fa-rss"></i>
+                            <i class="fa fa-github"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="linkedin" href="#" target="_blank">
+                    <a class="linkedin" href="https://www.instagram.com/_nguyendam_/" target="_blank">
                         <span>
-                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-instagram"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="youtube" href="#" target="_blank">
+                    <a class="youtube" href="https://www.youtube.com" target="_blank">
                         <span>
                             <i class="fa fa-youtube"></i>
                         </span>
