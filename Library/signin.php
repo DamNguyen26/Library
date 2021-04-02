@@ -324,15 +324,15 @@
                                 <h3 class="footer-widget-title">Latest Tweets</h3>
                                 <span class="underline left"></span>
                                 <div id="twitter-feed">
-                                    <ul>
-                                        <li>
-                                            <p><a href="#">@TemplateLibraria</a> Sed ut perspiciatis unde omnis iste natus error sit voluptatem. <a href="#">template-libraria.com</a></p>
-                                        </li>
-                                        <li>
-                                            <p><a href="#">@TemplateLibraria</a> Sed ut perspiciatis unde omnis iste natus error sit voluptatem. <a href="#">template-libraria.com</a></p>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <ul>
+                                    <li>
+                                        <p><a href="#">@Libraria</a> Đỉnh của chóp.</p>
+                                    </li>
+                                    <li>
+                                        <p><a href="#">@Libraria</a> Gút Chóp em.</p>
+                                    </li>
+                                </ul>
+                            </div>
                             </div>			
                         </div>
                     </div>
