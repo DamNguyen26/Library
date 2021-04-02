@@ -38,7 +38,6 @@ if (!isset($_SESSION['Email'])) {
         <script src="js/html5shiv.min.js"></script>
         <script src="js/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 
@@ -87,11 +86,11 @@ if (!isset($_SESSION['Email'])) {
                                     <li class="dropdown">
                                         <a data-toggle="dropdown" class="dropdown-toggle disabled" href="books-media-list-view.php">Books &amp; Media</a>
                                     </li>
-                                    <li class="dropdown">
+                                    <li class="dropdown active">
                                         <a data-toggle="dropdown" class="dropdown-toggle disabled" href="404.php">Blog</a>
                                     </li>
                                     <li class="dropdown"><a href="services.html">Services</a></li>
-                                    <li class="dropdown active"><a href="contact.php">Contact</a></li>
+                                    <li class="dropdown"><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -106,168 +105,47 @@ if (!isset($_SESSION['Email'])) {
     <section class="page-banner services-banner">
         <div class="container">
             <div class="banner-header">
-                <h2>Contact Us</h2>
+                <h2>Error 404</h2>
                 <span class="underline center"></span>
-                <p class="lead">Nói to lên bạn ơi !!!</p>
+                <p class="lead">Proin ac eros pellentesque dolor pharetra tempo.</p>
+            </div>
+            <div class="breadcrumb">
+                <ul>
+                    <li><a href="index-2.html">Home</a></li>
+                    <li>Error 404</li>
+                </ul>
             </div>
         </div>
     </section>
     <!-- End: Page Banner -->
 
-    <!-- Start: Contact Us Section -->
+    <!-- Start: 404 Section -->
     <div id="content" class="site-content">
         <div id="primary" class="content-area">
             <main id="main" class="site-main">
-                <div class="contact-main">
-                    <div class="contact-us">
-                        <div class="container">
-                            <div class="contact-location">
-                                <div class="flipcard">
-                                    <div class="front">
-                                        <div class="top-info">
-                                            <span><i class="fa fa-map-marker" aria-hidden="true"></i> Office Address</span>
-                                        </div>
-                                        <div class="bottom-info">
-                                            <span class="top-arrow"></span>
-                                            <ul>
-                                                <li>địa chỉ ở thư viện chứ ở đâu nữa</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="back">
-                                        <div class="bottom-info orange-bg">
-                                            <span class="bottom-arrow"></span>
-                                            <ul>
-                                                <li>địa chỉ ở thư viện chứ ở đâu nữa</li>
-                                            </ul>
-                                        </div>
-                                        <div class="top-info dark-bg">
-                                            <span><i class="fa fa-map-marker" aria-hidden="true"></i> Office Address</span>
-                                        </div>                                                
-                                    </div>
-                                </div>
-                                <div class="flipcard">
-                                    <div class="front">
-                                        <div class="top-info">
-                                            <span><i class="fa fa-fax" aria-hidden="true"></i> Phone and Fax</span>
-                                        </div>
-                                        <div class="bottom-info">
-                                            <span class="top-arrow"></span>
-                                            <ul>
-                                                <li><a href="tel:+123-456-7890">Local: +123-456-7890</a></li>
-                                                <li><a href="tel:+123-456-7890">Local: +123-456-7890</a></li>
-                                                <li><a href="fax:(001)-254-7359">Fax: (001)-254-7359</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="back">
-                                        <div class="bottom-info orange-bg">
-                                            <span class="bottom-arrow"></span>
-                                            <ul>
-                                                <li><a href="tel:+123-456-7890">Local: +123-456-7890</a></li>
-                                                <li><a href="tel:+123-456-7890">Local: +123-456-7890</a></li>
-                                                <li><a href="fax:(001)-254-7359">Fax: (001)-254-7359</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="top-info dark-bg">
-                                            <span><i class="fa fa-fax" aria-hidden="true"></i> Phone and Fax</span>
-                                        </div>                                                
-                                    </div>
-                                </div>
-                                <div class="flipcard">
-                                    <div class="front">
-                                        <div class="top-info">
-                                            <span><i class="fa fa-envelope" aria-hidden="true"></i> Email Address</span>
-                                        </div>
-                                        <div class="bottom-info">
-                                            <span class="top-arrow"></span>
-                                            <ul>
-                                                <li>www.libraria.com</li>
-                                                <li>support@libraria.com</li>
-                                                <li>info@libraria.com</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="back">
-                                        <div class="bottom-info orange-bg">
-                                            <span class="bottom-arrow"></span>
-                                            <ul>
-                                                <li><a href="http://www.libraria.com/">www.libraria.com </a></li>
-                                                <li><a href="mailto:support@libraria.com">support@libraria.com</a></li>
-                                                <li><a href="mailto:info@libraria.com">info@libraria.com</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="top-info dark-bg">
-                                            <span><i class="fa fa-envelope" aria-hidden="true"></i> Email Address</span>
-                                        </div>                                                
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="row">
-                                <div class="contact-area">
-                                    <div class="container">
-                                        <div class="col-md-5 col-md-offset-1 border-gray-left">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="contact-map bg-light margin-left">
-                                                        <div class="company-map" id="map"></div>
-                                                    </div>
-                                                </div>
+                <div class="error-main">
+                    <div class="container">
+                        <div class="error-view">
+                            <div class="company-info">
+                                <div class="col-md-5 col-md-offset-1 border-dark-left">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="error-box bg-dark margin-left text-center">
+                                                <img src="images/error-img.png" alt="Error Image">
                                             </div>
                                         </div>
-                                        <div class="col-md-5 border-gray-right">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="contact-form bg-light margin-right">
-                                                        <h2>Send us a message</h2>
-                                                        <span class="underline left"></span>
-                                                        <div class="contact-fields">
-                                                            <form id="contact" name="contact" action="http://libraria.demo.presstigers.com/contact.html" method="post" >
-                                                                <div class="row">
-                                                                    <div class="col-md-6 col-sm-6">
-                                                                        <div class="form-group">
-                                                                            <input class="form-control" type="text" placeholder="First Name" name="first-name" id="first-name" size="30" value="" aria-required="true" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-6 col-sm-6">
-                                                                        <div class="form-group">
-                                                                            <input class="form-control" type="text" placeholder="Last Name" name="last-name" id="last-name" size="30" value="" aria-required="true" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-6 col-sm-6">
-                                                                        <div class="form-group">
-                                                                            <input class="form-control" type="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" placeholder="Email" name="email" id="email" size="30" value="" aria-required="true" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-6 col-sm-6">
-                                                                        <div class="form-group">
-                                                                            <input class="form-control" type="text" placeholder="Phone Number" name="phone" id="phone" size="30" value="" aria-required="true" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-sm-12">
-                                                                        <div class="form-group">
-                                                                            <textarea class="form-control" placeholder="Your message" id="message" aria-required="true"></textarea>
-                                                                            <div class="clearfix"></div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-sm-12">
-                                                                        <div class="form-group form-submit">
-                                                                            <input class="btn btn-default" id="submit-contact-form" type="button" name="submit" value="Send Message"  />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div id="success">
-                                                                        <span>Your message was sent successfully! Our team will contact you soon.</span>
-                                                                    </div>
-
-                                                                    <div id="error">
-                                                                        <span>Something went wrong, try refreshing and submitting the form again.</span>
-                                                                    </div>
-                                                                </div>
-                                                            </form> 
-                                                        </div>                                                                   
-                                                    </div>
-                                                </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 border-dark new-user">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="error-info bg-light margin-right">
+                                                <h2>OOPS <small>Page Not Found!</small></h2>
+                                                <form class="search-404" method="post">                                            
+                                                    <input class="input-text" placeholder="First Name" name="search" type="text" />
+                                                    <span>Can't find what you need? Take a moment and do a search below or start from our homepage.</span>
+                                                    <input class="search-submit" type="submit" value="Search" />
+                                                </form>                                                                           
                                             </div>
                                         </div>
                                     </div>
@@ -279,7 +157,7 @@ if (!isset($_SESSION['Email'])) {
             </main>
         </div>
     </div>
-    <!-- End: Contact Us Section -->
+    <!-- End: 404 Section -->
 
     <!-- Start: Social Network -->
     <section class="social-network section-padding">
@@ -287,46 +165,46 @@ if (!isset($_SESSION['Email'])) {
             <div class="center-content">
                 <h2 class="section-title">Follow Us</h2>
                 <span class="underline center"></span>
-                <p class="lead">4 more information.</p>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <ul>
                 <li>
-                    <a class="facebook" href="https://www.facebook.com/Damnguyen2412/" target="_blank">
+                    <a class="facebook" href="#" target="_blank">
                         <span>
                             <i class="fa fa-facebook-f"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="twitter" href="https://twitter.com/damnguyen26" target="_blank">
+                    <a class="twitter" href="#" target="_blank">
                         <span>
                             <i class="fa fa-twitter"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="google" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                    <a class="google" href="#" target="_blank">
                         <span>
                             <i class="fa fa-google-plus"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="rss" href="https://github.com/DamNguyen26" target="_blank">
+                    <a class="rss" href="#" target="_blank">
                         <span>
-                            <i class="fa fa-github"></i>
+                            <i class="fa fa-rss"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="linkedin" href="https://www.instagram.com/_nguyendam_/" target="_blank">
+                    <a class="linkedin" href="#" target="_blank">
                         <span>
-                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-linkedin"></i>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a class="youtube" href="https://www.youtube.com" target="_blank">
+                    <a class="youtube" href="#" target="_blank">
                         <span>
                             <i class="fa fa-youtube"></i>
                         </span>
@@ -488,12 +366,6 @@ if (!isset($_SESSION['Email'])) {
 
     <!-- bxSlider -->
     <script type="text/javascript" src="js/bxslider.min.js"></script>
-
-    <!-- Google Map API -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAT5k-RhvFSVIuCALkpHhKgQx6SJUd9gpI"></script>
-
-    <!-- Google Map (Custom Style) -->
-    <script type="text/javascript" src="js/google.map.js"></script>
 
     <!-- Custom Scripts -->
     <script type="text/javascript" src="js/main.js"></script>
