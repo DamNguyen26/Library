@@ -19,12 +19,15 @@ namespace WinFormsAppLib
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string user = "dammit2525@gmail.com";
-            string pass = "Damnguyen26";
-            if (user.Equals(txtUser.Text) && pass.Equals(txtPass.Text))
+            if (this. txtUser.Text == "dammit2525@gmail.com" && this.txtPass.Text == "Damnguyen26")
             {
-                MessageBox.Show("Login successful.");
+                MessageBox.Show("Login successful. Student");
                 Form2 fm = new Form2();
+                fm.Show();
+            }
+            else if(this.txtUser.Text == "dammit2525@yahoo.com.vn" && this.txtPass.Text == "Damnguyen"){
+                MessageBox.Show("Login successful. Admin");
+                Form3 fm = new Form3();
                 fm.Show();
             }
             else
