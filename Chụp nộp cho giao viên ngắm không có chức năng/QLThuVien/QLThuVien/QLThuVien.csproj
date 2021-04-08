@@ -32,19 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
-    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
-    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
-    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Data.v13.1, Version=13.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Sparkline.v13.1.Core, Version=13.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraBars.v13.1, Version=13.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
-    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -68,78 +55,69 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmdangky.cs">
+    <Compile Include="dangKy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmdangky.Designer.cs">
-      <DependentUpon>frmdangky.cs</DependentUpon>
+    <Compile Include="dangKy.Designer.cs">
+      <DependentUpon>dangKy.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmthethuvien.cs">
+    <Compile Include="theThuVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmthethuvien.Designer.cs">
-      <DependentUpon>frmthethuvien.cs</DependentUpon>
+    <Compile Include="theThuVien.Designer.cs">
+      <DependentUpon>theThuVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmtimkiemsach.cs">
+    <Compile Include="timSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmtimkiemsach.Designer.cs">
-      <DependentUpon>frmtimkiemsach.cs</DependentUpon>
+    <Compile Include="timSach.Designer.cs">
+      <DependentUpon>timSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="Giaodien.cs">
+    <Compile Include="dangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Giaodien.Designer.cs">
-      <DependentUpon>Giaodien.cs</DependentUpon>
+    <Compile Include="dangNhap.Designer.cs">
+      <DependentUpon>dangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSach.cs">
+    <Compile Include="sach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSach.Designer.cs">
-      <DependentUpon>frmSach.cs</DependentUpon>
+    <Compile Include="sach.Designer.cs">
+      <DependentUpon>sach.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSachMuon.cs">
+    <Compile Include="phieuMuonSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSachMuon.Designer.cs">
-      <DependentUpon>frmSachMuon.cs</DependentUpon>
+    <Compile Include="phieuMuonSach.Designer.cs">
+      <DependentUpon>phieuMuonSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPhieuNhacTra.cs">
+    <Compile Include="muonSach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPhieuNhacTra.Designer.cs">
-      <DependentUpon>frmPhieuNhacTra.cs</DependentUpon>
-    </Compile>
-    <Compile Include="muontrasach.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="muontrasach.Designer.cs">
-      <DependentUpon>muontrasach.cs</DependentUpon>
+    <Compile Include="muonSach.Designer.cs">
+      <DependentUpon>muonSach.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <EmbeddedResource Include="frmdangky.resx">
-      <DependentUpon>frmdangky.cs</DependentUpon>
+    <EmbeddedResource Include="dangKy.resx">
+      <DependentUpon>dangKy.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmthethuvien.resx">
-      <DependentUpon>frmthethuvien.cs</DependentUpon>
+    <EmbeddedResource Include="theThuVien.resx">
+      <DependentUpon>theThuVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmtimkiemsach.resx">
-      <DependentUpon>frmtimkiemsach.cs</DependentUpon>
+    <EmbeddedResource Include="timSach.resx">
+      <DependentUpon>timSach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Giaodien.resx">
-      <DependentUpon>Giaodien.cs</DependentUpon>
+    <EmbeddedResource Include="dangNhap.resx">
+      <DependentUpon>dangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPhieuNhacTra.resx">
-      <DependentUpon>frmPhieuNhacTra.cs</DependentUpon>
+    <EmbeddedResource Include="sach.resx">
+      <DependentUpon>sach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSach.resx">
-      <DependentUpon>frmSach.cs</DependentUpon>
+    <EmbeddedResource Include="phieuMuonSach.resx">
+      <DependentUpon>phieuMuonSach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSachMuon.resx">
-      <DependentUpon>frmSachMuon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="muontrasach.resx">
-      <DependentUpon>muontrasach.cs</DependentUpon>
+    <EmbeddedResource Include="muonSach.resx">
+      <DependentUpon>muonSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -160,9 +138,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />

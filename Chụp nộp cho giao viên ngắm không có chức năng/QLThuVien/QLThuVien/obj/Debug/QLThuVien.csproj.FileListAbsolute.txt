@@ -78,3 +78,17 @@ C:\Users\dammi\Downloads\BaiTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.G
 C:\Users\dammi\Downloads\BaiTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
 C:\Users\dammi\Downloads\BaiTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.exe
 C:\Users\dammi\Downloads\BaiTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.pdb
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\bin\Debug\QLThuVien.pdb
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.dangKy.resources
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.theThuVien.resources
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.timSach.resources
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.dangNhap.resources
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.sach.resources
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.phieuMuonSach.resources
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.muonSach.resources
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Properties.Resources.resources
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.GenerateResource.cache
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.exe
+C:\xampp\htdocs\work\Library\Chụp nộp cho giao viên ngắm không có chức năng\QLThuVien\QLThuVien\obj\Debug\QLThuVien.pdb
