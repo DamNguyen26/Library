@@ -6,7 +6,7 @@ if (!isset($_SESSION['Email'])) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="eng">
 
 
 
@@ -17,7 +17,7 @@ if (!isset($_SESSION['Email'])) {
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
 
     <!-- Title -->
-    <title>Library</title>
+    <title>Rainwater Harvesting</title>
 
     <!-- Favicon -->
     <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
@@ -32,17 +32,9 @@ if (!isset($_SESSION['Email'])) {
 
     <!-- Stylesheet -->
     <link href="style.css" rel="stylesheet" type="text/css" />
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!-- [if lt IE 9]> -->
-        <!-- <script src="js/html5shiv.min.js"></script>
-            <script src="js/respond.min.js"></script> -->
-            <!-- <![endif] -->
-        </head>
+</head>
 
         <body>
-
             <!-- Start: Header Section -->
             <header id="header-v1" class="navbar-wrapper">
                 <div class="container">
